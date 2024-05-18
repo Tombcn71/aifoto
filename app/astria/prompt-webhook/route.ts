@@ -5,10 +5,10 @@ import { NextResponse } from "next/server";
 export const dynamic = "force-dynamic";
 
 const resendApiKey = process.env.RESEND_API_KEY;
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const supabaseServiceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+const supabaseUrl = "https://nipdkcmrkkmtxzjvuieo.supabase.co";
+const supabaseServiceRoleKey = "https://nipdkcmrkkmtxzjvuieo.supabase.co";
 
-const appWebhookSecret = process.env.APP_WEBHOOK_SECRET;
+const appWebhookSecret = "kytscgkvabivluvpxpftgoflqgpfgupp";
 
 if (!resendApiKey) {
   console.warn(
