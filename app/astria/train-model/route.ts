@@ -10,7 +10,7 @@ const astriaApiKey = process.env.ASTRIA_API_KEY;
 const astriaTestModeIsOn = process.env.ASTRIA_TEST_MODE === "true";
 // For local development, recommend using an Ngrok tunnel for the domain
 
-const appWebhookSecret = "kytscgkvabivluvpxpftgoflqgpfgupp";
+const appWebhookSecret = process.env.APP_WEBHOOK_SECRET;
 const stripeIsConfigured = process.env.NEXT_PUBLIC_STRIPE_IS_ENABLED === "true";
 
 if (!appWebhookSecret) {
