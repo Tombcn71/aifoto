@@ -40,11 +40,18 @@ export default async function Index() {
           href="/dream">
           Meer weten{" "}
         </Link>
-        <div className="flex justify-between items-center w-full flex-col sm:mt-10 mt-6">
+        <div className="flex justify-between items-center w-full flex-col sm:mt-10 ">
           <div className="flex flex-col space-y-10 mt-4 ">
             <div className="flex sm:space-x-8 sm:flex-row flex-col"></div>
           </div>{" "}
-          <Keen />
+          <Image
+            alt="Original photo of a room with roomGPT.io"
+            src="/hero.png"
+            className=" "
+            width={1000}
+            height={200}
+            priority
+          />
         </div>{" "}
       </main>
 
