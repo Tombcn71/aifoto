@@ -40,7 +40,7 @@ export default async function Navbar() {
       <div className="flex gap-2 h-full">
         <Link href="/" className="flex items-center gap-3">
           <Image src="/logo7.png" alt="logo" width={30} height={30} />
-          <div className="font-bold text-lg">AI fotosessie</div>
+          <div className=" font-medium  text-2xl">AI fotosessie</div>
         </Link>
       </div>
       {user && (
