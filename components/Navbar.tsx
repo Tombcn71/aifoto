@@ -14,6 +14,7 @@ import { Button } from "./ui/button";
 import React from "react";
 import { Database } from "@/types/supabase";
 import ClientSideCredits from "./realtime/ClientSideCredits";
+import Image from "next/image";
 
 export const dynamic = "force-dynamic";
 
@@ -28,15 +29,18 @@ export default async function Navbar() {
     data: { user },
   } = await supabase.auth.getUser();
 
-  const {
-    data: credits,
-  } = await supabase.from("credits").select("*").eq("user_id", user?.id ?? '').single()
+  const { data: credits } = await supabase
+    .from("credits")
+    .select("*")
+    .eq("user_id", user?.id ?? "")
+    .single();
 
   return (
     <div className="flex w-full px-4 lg:px-40 py-4 items-center border-b text-center gap-8 justify-between">
       <div className="flex gap-2 h-full">
-        <Link href="/">
-          <h2 className="font-bold">Headshots AI</h2>
+        <Link href="/" className="flex items-center gap-3">
+          <Image src="/logo7.png" alt="logo" width={30} height={30} />
+          <div className="font-bold text-lg">AI fotosessie</div>
         </Link>
       </div>
       {user && (
@@ -67,14 +71,15 @@ export default async function Navbar() {
                 <AvatarIcon height={24} width={24} className="text-primary" />
               </DropdownMenuTrigger>
               <DropdownMenuContent className="w-56">
-                <DropdownMenuLabel className="text-primary text-center overflow-hidden text-ellipsis">{user.email}</DropdownMenuLabel>
+                <DropdownMenuLabel className="text-primary text-center overflow-hidden text-ellipsis">
+                  {user.email}
+                </DropdownMenuLabel>
                 <DropdownMenuSeparator />
                 <form action="/auth/sign-out" method="post">
                   <Button
                     type="submit"
                     className="w-full text-left"
-                    variant={"ghost"}
-                    >
+                    variant={"ghost"}>
                     Log out
                   </Button>
                 </form>

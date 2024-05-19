@@ -5,7 +5,7 @@ import result from "/public/result.png";
 export default function ExplainerSection() {
   return (
     <div className="w-full max-w-6xl mt-16 p-8 bg-gray-100 rounded-lg space-y-8">
-      <h2 className="text-3xl font-bold text-center mb-8">How It Works</h2>
+      <h2 className="text-3xl font-semibold text-center mb-8">zo werkt het</h2>
 
       {/* Step 1: Upload your images */}
       <div className="space-y-4">
@@ -13,11 +13,11 @@ export default function ExplainerSection() {
           <div className="text-3xl font-bold text-blue-600 bg-white border-2 border-blue-600 rounded-full w-10 h-10 flex items-center justify-center">
             1
           </div>
-          <h3 className="text-2xl font-semibold">Upload your images</h3>
+          <h3 className="text-2xl font-semibold">Upload een paar selfies</h3>
         </div>
         <p className="text-sm text-gray-600 text-center">
-          Upload 4+ high-quality selfies: front facing, 1 person in frame, no
-          glasses or hats.
+          Upload 4-10 high-quality selfies: naar de camera kijkend, 1 persoon,
+          geen zonnebrillen of hoeden.
         </p>
         <img
           src={example.src}
@@ -32,10 +32,13 @@ export default function ExplainerSection() {
           <div className="text-3xl font-bold text-blue-600 bg-white border-2 border-blue-600 rounded-full w-10 h-10 flex items-center justify-center">
             2
           </div>
-          <h3 className="text-2xl font-semibold">Our AI gets to work</h3>
+          <h3 className="text-2xl font-semibold">
+            Onze AI gets gaat aan het werk
+          </h3>
         </div>
         <p className="text-sm text-gray-600 text-center">
-          The AI magic takes ~20 minutes. You'll get an email when its ready!
+          De AI is ongeveer ~20 minuten bezig. Je krijgt een email wanneer je
+          foto's klaar zijn!
         </p>
         <img
           src={blur.src}
