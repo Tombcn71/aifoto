@@ -15,7 +15,7 @@ export default function ExplainerSection() {
           <div className="text-3xl font-bold text-sky-600 bg-white border-2 border-sky-600 rounded-full w-10 h-10 flex items-center justify-center">
             1
           </div>
-          <h3 className="text-2xl font-semibold">Upload je selfies</h3>
+          <h3 className="text-2xl font-semibold">Upload 4-10 selfies</h3>
         </div>
         <p className="text-l text-gray-600 text-center">
           kijk recht in de camera, zorg dat je gezicht in het midden van de foto
@@ -38,8 +38,8 @@ export default function ExplainerSection() {
           <h3 className="text-2xl font-semibold">Onze AI gaat aan het werk</h3>
         </div>
         <p className="text-l text-gray-600 text-center">
-          De AI is 15 minuten bezig wanneer het afgerond is ontvang je een
-          mailtje{" "}
+          De AI is 30 minuten bezig wanneer het afgerond is ontvang je een
+          e-mail{" "}
         </p>
         <img
           src={wazig.src}

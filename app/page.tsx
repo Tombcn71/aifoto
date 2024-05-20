@@ -3,7 +3,7 @@ import { cookies } from "next/headers";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import Image from "next/image";
-import hero2 from "/public/hero2.png";
+import hero9 from "/public/hero9.png";
 import FAQ from "@/components/Faq";
 import { Button } from "@/components/ui/button";
 import ExplainerSection from "@/components/ExplainerSection";
@@ -23,36 +23,34 @@ export default async function Index() {
   }
 
   return (
-    <div className="flex flex-col px-6 items-center ">
-      <div className="flex flex-col lg:flex-row items-center  max-w-6xl w-full">
-        <div className="flex flex-col space-y-4 lg:w-1/2 w-full">
-          <h1 className="text-6xl font-bold">
-            Zakelijke Portetfoto's met behulp van AI✨
-          </h1>
-          <p className="text-gray-600 text-lg">
-            Vergeet studio's en fotosessies! Genereer professionele Portetfoto's
-            in HD studio kwaliteit makkelijk vanaf thuis of je werk.
-          </p>
-          <div className="flex flex-col space-y-2">
-            <Link href="/login">
-              <Button className="border rounded-full  h-12 px-6 m-2 text-lg text-white bg-sky-600 hover:bg-sky-700 w-full lg:w-1/2">
-                Begin AI fotosessie{" "}
-              </Button>
-            </Link>
+    <div className="flex max-w-6xl mx-auto flex-col items-center justify-center  min-h-screen">
+      <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt20  ">
+        <h1 className="mx-auto max-w-4xl font-display text-4xl sm:text-6xl text-slate-800 font-extrabold tracking-normal ">
+          Professionele Portetfoto's maken met AI✨
+        </h1>
+        <h2 className="mx-auto mt-6 mb-6 max-w-xl text-lg sm:text-gray-800  text-gray-800 leading-7">
+          Vergeet studios en fotosessies! Genereer professionele Portetfoto's in
+          HD studio kwaliteit makkelijk vanaf thuis of je werk.
+        </h2>
+        <Link href="/login">
+          {" "}
+          <Button className="border rounded-full h-14 px-10 m-2 text-xl text-white hover:bg-sky-600 bg-sky-600">
+            Begin jouw AI fotosessie
+          </Button>
+        </Link>
+        <div className="flex justify-between items-center w-full flex-col sm:mt-10 mt-6">
+          <ExplainerSection />
+
+          <div className="flex flex-col space-y-10 mt-4 mb-16">
+            <div className="flex sm:space-x-8 sm:flex-row flex-col"></div>
           </div>
         </div>
-        <div className="lg:w-1/2  sm:pb8 pb-16 w-full ">
-          <Image
-            src="/hero.png"
-            width={600}
-            height={1000}
-            alt="Picture of the author"
-          />
-        </div>
-      </div>
-      <ExplainerSection />
-      <PricingSection />
+      </main>
       <FAQ />
+      <div>
+        {" "}
+        <PricingSection />
+      </div>
     </div>
   );
 }

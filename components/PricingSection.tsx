@@ -14,10 +14,7 @@ export default function PricingSection() {
               <h3 className="text-2xl font-semibold text-center">
                 {option.title}
               </h3>
-              <p className="text-3xl text-gray-400 font-bold line-through text-center mb-2">
-                {option.price1}
-              </p>{" "}
-              <p className="text-6xl font-extrabold text-center mb-2">
+              <p className="text-4xl font-extrabold text-center mb-2">
                 {option.price}
               </p>
               <p className="text-sm text-gray-600 text-center">
@@ -50,7 +47,7 @@ export default function PricingSection() {
 const pricingOptions = [
   {
     title: "Individueel",
-    price1: "39€",
+
     price: "25€",
     description:
       "Perfect voor personen die hun online aanwezigheid willen verbeteren.",
@@ -65,7 +62,7 @@ const pricingOptions = [
   },
   {
     title: "Kleine teams",
-    price1: "79€ ",
+
     price: "55€ ",
     description:
       "Ideal voor kleine teams van 3 personen die hun online aanwezigheid willen verbeteren.",
@@ -81,7 +78,7 @@ const pricingOptions = [
   },
   {
     title: "Teams",
-    price1: "129€",
+
     price: "95€",
     description:
       "Ideal voor teams van 5 personen die hun online aanwezigheid willen verbeteren.",
