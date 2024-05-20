@@ -118,8 +118,7 @@ export const Login = ({
 
           <form
             onSubmit={handleSubmit(onSubmit)}
-            className="flex flex-col gap-2"
-          >
+            className="flex flex-col gap-2">
             <div className="flex flex-col gap-4">
               <div className="flex flex-col gap-2">
                 <Input
@@ -153,8 +152,7 @@ export const Login = ({
               disabled={isSubmitting}
               variant="outline"
               className="w-full"
-              type="submit"
-            >
+              type="submit">
               Continue with Email
             </Button>
           </form>
