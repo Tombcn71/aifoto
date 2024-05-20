@@ -7,8 +7,6 @@ export default function ExplainerSection() {
     <div
       id="Zo werkt het"
       className="w-full max-w-6xl mt-16  px-6 p-8 bg-gray-100 rounded-lg space-y-8">
-      <h2 className="text-3xl  font-bold text-center mb-8">Zo werkt het</h2>
-
       {/* Step 1: Upload your images */}
       <div className="space-y-4">
         <div className="flex items-center justify-center space-x-4">
