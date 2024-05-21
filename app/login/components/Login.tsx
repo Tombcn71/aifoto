@@ -100,12 +100,23 @@ export const Login = ({
 
   return (
     <>
+      {" "}
+      <div className="  px-8 text-xl text-center">
+        <h1 className="font-bold text-3xl pb-6">
+          👋 Hallo fijn dat je er bent!
+        </h1>
+        <div className="text-base">
+          Vul je email in en we zenden je een
+          <br />
+          ✨magic link✨ waarmee je kunt inloggen. <br />
+          Hierna kun je credits kopen en beginnen met je fotosessie{" "}
+        </div>
+      </div>
       <div className="flex items-center justify-center p-8">
-        <div className="flex flex-col gap-4 bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 p-4 rounded-xl max-w-sm w-full">
-          <h1 className="text-xl">Welcome</h1>
-          <p className="text-xs opacity-60">
-            Sign in or create an account to get started.
-          </p>
+        <div className="flex flex-col gap-4  dark:bg-neutral-900 border border-200 p-4 rounded-xl max-w-sm w-full">
+          <h1 className="text-base font-semibold	">Inloggen/ Registeren</h1>
+          <p className=" opacity-60">Login of registreer om te beginnen. </p>
+          <p className="font-semibold	">Email</p>
           {/* <Button
             onClick={signInWithGoogle}
             variant={"outline"}
@@ -123,7 +134,7 @@ export const Login = ({
               <div className="flex flex-col gap-2">
                 <Input
                   type="email"
-                  placeholder="Email"
+                  placeholder="jij@voorbeeld.com"
                   {...register("email", {
                     required: true,
                     validate: {
@@ -151,9 +162,9 @@ export const Login = ({
               isLoading={isSubmitting}
               disabled={isSubmitting}
               variant="outline"
-              className="w-full"
+              className="bg-sky-600 border rounded-full  h-12 px-6 m-2 text-lg text-white"
               type="submit">
-              Continue with Email
+              Versturen
             </Button>
           </form>
         </div>
