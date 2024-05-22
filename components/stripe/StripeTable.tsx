@@ -39,10 +39,11 @@ const StripePricingTable = ({ user }: Props) => {
   return (
     <div className="flex flex-1 flex-col w-full">
       <stripe-pricing-table
-        pricing-table-id="prctbl_1P9ilUFHQxgFOGeCtNu1RbnG"
-        publishable-key="pk_live_51O5QeBFHQxgFOGeCAf2jRzTU8BdbX8Ec3AwOZMeJFW89IlrzHuks9iFlvITh3ZArfZnofo8kxf0tBOU9kI02aGrV00cvwBdBYb"
+        pricing-table-id="prctbl_1PJFjqHo2N94V3VmyGWx5TBQ"
+        publishable-key="pk_live_51PJEz5Ho2N94V3VmyBcffV7D5M8E7oteylwMLKO1eyv3foprQn4s9V0jrNcYPgourZ1tJtjOlEmxz93POh2lqmBR00neLrl1mJ">
         client-reference-id={user.id}
-        customer-email={user.email}></stripe-pricing-table>
+        customer-email={user.email}
+      </stripe-pricing-table>
     </div>
   );
 };
