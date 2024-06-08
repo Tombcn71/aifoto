@@ -43,6 +43,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "cmdk": "^0.2.0",
+    "cookies-next": "^4.2.1",
     "disposable-email-domains": "^1.0.62",
     "formidable": "^3.5.1",
     "gray-matter": "^4.0.3",
