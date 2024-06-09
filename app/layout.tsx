@@ -4,6 +4,9 @@ import { Toaster } from "@/components/ui/toaster";
 import "./globals.css";
 import { Suspense } from "react";
 import { Analytics } from "@vercel/analytics/react";
+import dynamic from "next/dynamic";
+
+const CrispWithNoSSR = dynamic(() => import("@/components/crisp"));
 
 export const metadata = {
   title: "Professionele Portetfoto's maken met AI",
@@ -28,7 +31,7 @@ export default function RootLayout({ children }: any) {
         </main>
         <Footer />
         <Toaster />
-        <Analytics />
+        <Analytics /> <CrispWithNoSSR />
       </body>
     </html>
   );
