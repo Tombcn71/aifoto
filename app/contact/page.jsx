@@ -50,34 +50,24 @@ function Contact() {
                         className="space-y-5"
                     >
                         <div className="flex flex-col items-center gap-y-5 gap-x-6 [&>*]:w-full sm:flex-row">
-                            <div>
-                                <label className="font-medium">
-                                    Voornaam
-                                </label>
-                                <input
-                                    type="text"
-                                    required
-                                    className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
-                                />
-                            </div>
-                            <div>
-                                <label className="font-medium">
-                                    Achternaam
 
-                                </label>
-                                <input
-                                    type="text"
-                                    required
-                                    className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
-                                />
-                            </div>
+                        </div><div>
+                            <label className="font-medium">
+                                Naam
+
+                            </label>
+                            <input
+                                type="text" name="name"
+                                required
+                                className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
+                            />
                         </div>
                         <div>
                             <label className="font-medium">
                                 Email
                             </label>
                             <input
-                                type="email"
+                                type="email" name="email"
                                 required
                                 className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
                             />
@@ -86,7 +76,7 @@ function Contact() {
                         <div>
                             <label className="font-medium">
                                 Bericht                            </label>
-                            <textarea required className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"></textarea>
+                            <textarea name="message" required className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"></textarea>
                         </div>
                         <button className="w-full px-4 py-2 text-white font-medium  hover:bg-sky-700 bg-sky-600 active: hover:bg-sky-700 bg-sky-600 rounded-lg duration-150">
 
