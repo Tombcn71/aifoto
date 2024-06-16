@@ -5,6 +5,7 @@ import "./globals.css";
 import { Suspense } from "react";
 import { Analytics } from "@vercel/analytics/react";
 import dynamic from "next/dynamic";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const CrispWithNoSSR = dynamic(() => import("@/components/crisp"));
 
@@ -17,6 +18,8 @@ export const metadata = {
 export default function RootLayout({ children }: any) {
   return (
     <html lang="en">
+      {" "}
+      <GoogleAnalytics gaId="G-RDJTQ9X4WR" />
       <body className="min-h-screen flex flex-col">
         <section>
           <Suspense
