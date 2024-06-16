@@ -32,7 +32,7 @@ function footer3() {
 
           <ul className="mt-12 flex justify-center gap-6 md:gap-8">
             <Link
-              href="https://www.instagram.com/fotosessie.ai/"
+              href="https://www.instagram.com/AiFotosessie.nl/"
               className="group"
               aria-label="Instagram"
               target="_blank">
@@ -48,7 +48,7 @@ function footer3() {
             </Link>
 
             <Link
-              href="https://www.linkedin.com/company/fotosessie-ai/?viewAsMember=true"
+              href="https://www.linkedin.com/company/AiFotosessie.nl/?viewAsMember=true"
               className="group"
               aria-label="Linkedin"
               target="_blank">

@@ -18,7 +18,7 @@ function Call() {
                         <h1 className="sm:text-4xl text-2xl font-bold text-blue-500">Vandaag nog jouw fotosessie zonder gedoe?</h1>
                         <div className="mt-6">
                             <p className="text-m text-gray-300">Vergeet dure studio's en ongemakkelijke fotosessies!
-                                Genereer professionele zakelijke portetfoto's met Fotosessie.ai in HD studio kwaliteit die veel goedkoper zijn en geen tijd en reizen in beslag nemen, makkelijk vanaf thuis of je werk.
+                                Genereer professionele zakelijke portetfoto's met AiFotosessie.nl in HD studio kwaliteit die veel goedkoper zijn en geen tijd en reizen in beslag nemen, makkelijk vanaf thuis of je werk.
                             </p>
 
                         </div>

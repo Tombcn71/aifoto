@@ -1,6 +1,6 @@
 import React from "react";
 export const metadata = {
-  title: "FAQ | Kan dit een echte foto shoot vervangen? | Fotosessie.ai",
+  title: "FAQ | Kan dit een echte foto shoot vervangen? | AiFotosessie.nl",
 
   description:
     "ja de A.I. technologie die wij gebruiken heeft een professionele fotokwaliteit die niet te onderscheiden is van een foto gemaakt door een echte fotograaf",

@@ -1,7 +1,7 @@
 import Posts from "@/components/Posts";
 
 export const metadata = {
-  title: "Blog over AI Portetfoto's | Fotosessie.ai",
+  title: "Blog over AI Portetfoto's | AiFotosessie.nl",
 
   description:
     "Een goed gemaakte portretfoto kan deuren openen naar nieuwe kansen, jouw online aanwezigheid verbeteren en je helpen op te vallen in jouw werkveld, of je nu een ondernemer bent of freelancer of gewoon jouw professionele imago wilt verbeteren.",
