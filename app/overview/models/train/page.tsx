@@ -17,7 +17,7 @@ export default async function Index() {
         id="train-model-container"
         className="flex flex-1 flex-col gap-2 px-2">
         <Link href="/overview" className="text-sm w-fit">
-          <Button variant={"outline"}>
+          <Button className="bg-sky-600 hover:bg-sky-700">
             <FaArrowLeft className="mr-2" />
             Terug
           </Button>
