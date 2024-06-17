@@ -6,6 +6,7 @@ import { Suspense } from "react";
 import { Analytics } from "@vercel/analytics/react";
 import dynamic from "next/dynamic";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { CookieConsent } from "@/components/CookieConsent";
 
 const CrispWithNoSSR = dynamic(() => import("@/components/crisp"));
 
@@ -35,6 +36,7 @@ export default function RootLayout({ children }: any) {
         <Footer />
         <Toaster />
         <Analytics /> <CrispWithNoSSR />
+        <CookieConsent />
       </body>
     </html>
   );

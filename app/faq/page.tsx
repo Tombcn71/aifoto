@@ -1,6 +1,6 @@
 import React from "react";
 export const metadata = {
-  title: "FAQ | Kan dit een echte foto shoot vervangen? | AiFotosessie.nl",
+  title: "FAQ | Kan A.I. een echte foto shoot vervangen? | AiFotosessie.nl",
 
   description:
     "ja de A.I. technologie die wij gebruiken heeft een professionele fotokwaliteit die niet te onderscheiden is van een foto gemaakt door een echte fotograaf",
@@ -102,7 +102,7 @@ export default function FAQ() {
             vreemde uitdrukking. Waar een professionele fotograaf vaak 1 goede
             portretfoto foto opleverd, kunt je bij ons 3 tot 6 geweldige
             profielwaardige portretfoto's van je bestelling verwachten, maar we
-            laten je de hele shoot van 32 stuks zien, zodat je zelf kunt
+            laten je de hele shoot van 40 stuks zien, zodat je zelf kunt
             beslissen welke je wilt gebruiken.
           </p>
         </details>
@@ -154,7 +154,7 @@ export default function FAQ() {
         <details className="group rounded-lg bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
             <h2 className="font-medium">
-              Moet ik een pak of blazer dragen voor deze foto sessie?
+              Moet ik een pak of blazer dragen voor deze a.i. foto sessie?
             </h2>
 
             <span className="relative h-5 w-5 shrink-0">
@@ -190,7 +190,7 @@ export default function FAQ() {
 
           <p className="mt-4 leading-relaxed text-gray-700">
             Nee, je hoeft geen professionele kleding te dragen op de foto's die
-            je uploadt. Onze AI maakt automatisch uw portretfoto's met
+            je uploadt. Onze AI maakt automatisch je portretfoto's met
             professionele kleding zoals pakken, blazers en overhemden, je mag in
             edere outfit die je wilt de selfies maken.
           </p>
@@ -234,52 +234,11 @@ export default function FAQ() {
 
           <p className="mt-4 leading-relaxed text-gray-700">
             Je Portetfoto's hebben verschillende achtergronden, waaronder
-            professionele fotostudio-achtergronden, kantoorachtergronden en
-            eenvoudige zwart/wit/grijze achtergronden.
+            professionele fotostudio-achtergronden, hippe kantoorachtergronden
+            en eenvoudige zwart/wit/grijze achtergronden.
           </p>
         </details>
-        <details className="group rounded-lg bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
-          <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-            <h2 className="font-medium">
-              Welke outfits zal ik als resultaat op mijn portretten dragen??
-            </h2>
 
-            <span className="relative h-5 w-5 shrink-0">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="absolute inset-0 opacity-100 group-open:opacity-0"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth="2">
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="absolute inset-0 opacity-0 group-open:opacity-100"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth="2">
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-            </span>
-          </summary>
-
-          <p className="mt-4 leading-relaxed text-gray-700">
-            Op je AI-portretten draag je een combinatie van professionele
-            pakken, overhemden en blazers.
-          </p>
-        </details>
         <details className="group rounded-lg bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
             <h2 className="font-medium">Kan ik make-up op doen?</h2>
@@ -316,11 +275,11 @@ export default function FAQ() {
           </summary>
 
           <p className="mt-4 leading-relaxed text-gray-700">
-            Dit geldt vooral voor vrouwen. Als de foto's die je uploadt allemaal
-            make-up bevatten, zullen jouw door AI gegenereerde portretfoto's ook
-            make-up bevatten. Het AI-model gebruikt de informatie die je in jouw
-            eerste afbeeldingen opgeeft, dus als de meeste of al deze
-            afbeeldingen make-up bevatten, heeft jouw AI-model ook make-up.
+            Als de foto's die je uploadt allemaal make-up bevatten, zullen jouw
+            door AI gegenereerde portretfoto's ook make-up bevatten. Het
+            AI-model gebruikt de informatie die je in jouw eerste afbeeldingen
+            opgeeft, dus als de meeste of al deze afbeeldingen make-up bevatten,
+            heeft jouw AI-model ook make-up.
           </p>
         </details>
         <details className="group rounded-lg bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
@@ -442,7 +401,8 @@ export default function FAQ() {
 
           <p className="mt-4 leading-relaxed text-gray-700">
             Ja, we gebruiken Stripe voor betalingsverwerking. We slaan geen van
-            jouw betalingsgegevens gegevens op onze servers op.
+            jouw betalingsgegevens gegevens op onze servers op. En je kunt
+            vertrouwd met ideal of kaart betalen.
           </p>
         </details>
         <details className="group rounded-lg bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
