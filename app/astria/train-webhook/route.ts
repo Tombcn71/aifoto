@@ -119,7 +119,7 @@ export async function POST(request: Request) {
         from: "noreply@aifotosessie.nl",
         to: user?.email ?? "",
         subject: "De fotosessie is succesvol verlopen!",
-        html: `<p>We schrijven je om u te laten weten dat je a.i. training succesvol was! Er is 1 credit van je account gebruikt..</p>
+        html: `<p>We schrijven je om je te laten weten dat je a.i. training succesvol was! Er is 1 credit van je account gebruikt..</p>
         <a href="https://www.aifotosessie.nl" style="background-color: #0072b1 ; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Bekijk foto’s</a>
         `,
       });
