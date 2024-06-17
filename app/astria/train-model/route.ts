@@ -148,6 +148,22 @@ export async function POST(request: Request) {
             callback: promptWebhookWithParams,
             num_images: 8,
           },
+          {
+            text: `8k linkedin professional profile photo of ohwx ${type}, in a suit with studio lighting, bokeh, confident posture, corporate portrait headshot photograph best corporate photography photo winner, meticulous detail, hyperrealistic, centered uncropped symmetrical beautiful`,
+            callback: promptWebhookWithParams,
+            num_images: 8,
+          },
+
+          {
+            text: `8k close up linkedin profile picture of ohwx ${type}, crisp details, studio backdrop, executive attire, confident posture, neutral expression, high-definition, corporate setting, sharp focus, ambient lighting, business professional, cityscape view`,
+            callback: promptWebhookWithParams,
+            num_images: 8,
+          },
+          {
+            text: `8k professional headshot of ohwx ${type}, professional dress shirt, professional headshots, photo-realistic, 4k, high-resolution image, workplace settings, upper body, confident posture, modern outfit, professional look, business style, blurred background, glass building, office window`,
+            callback: promptWebhookWithParams,
+            num_images: 8,
+          },
         ],
       },
     };
