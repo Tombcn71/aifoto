@@ -1,5 +1,5 @@
 ---
-title: "De Toekomst van Portet Fotografie: AI Headshots 
+title: "De Toekomst van Portret Fotografie: AI Fotosessie 
 
 "
 date: "2024-02-05"
