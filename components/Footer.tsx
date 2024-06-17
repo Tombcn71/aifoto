@@ -24,8 +24,8 @@ function footer3() {
           </p>
 
           <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
-            <Link href="/#Prijs">Prijs</Link>
-            <Link href="/#Faq">Faq</Link>
+            <Link href="/Prijs">Prijs</Link>
+            <Link href="/Faq">Faq</Link>
             <Link href="/blog">Blog</Link>
             <Link href="/contact">Contact</Link>{" "}
           </ul>
