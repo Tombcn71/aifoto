@@ -53,9 +53,9 @@ const pricingOptions = [
       "Perfect voor personen die hun online aanwezigheid willen verbeteren.",
     features: [
       "1 individuele fotosessie",
-      " 32 HD AI Foto's",
+      " 40 HD AI Foto's",
       "20+ stijlen",
-      "Klaar in 15 minuten",
+      "Klaar in 30 minuten",
     ],
     buttonText: "Koop fotosessie ",
     bgColor: "bg-white",
@@ -68,9 +68,9 @@ const pricingOptions = [
       "Ideal voor kleine teams van 3 personen die hun online aanwezigheid willen verbeteren.",
     features: [
       "3 individuele fotosessies",
-      " Ieder 32 HD AI Foto's",
+      " Ieder 40 HD AI Foto's",
       "20+ stijlen",
-      "Klaar in 15 minuten",
+      "Klaar in 30 minuten",
     ],
 
     buttonText: "Koop fotosessie ",
@@ -84,9 +84,9 @@ const pricingOptions = [
       "Ideal voor teams van 5 personen die hun online aanwezigheid willen verbeteren.",
     features: [
       "5 individuele fotosessies",
-      " Ieder 32 HD AI Foto's",
+      " Ieder 40 HD AI Foto's",
       "20+ stijlen",
-      "Klaar in 15 minuten",
+      "Klaar in 30 minuten",
     ],
     buttonText: "Koop fotosessie  ",
     bgColor: "bg-white",
