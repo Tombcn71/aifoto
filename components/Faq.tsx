@@ -97,7 +97,7 @@ export default function FAQ() {
             vreemde uitdrukking. Waar een professionele fotograaf vaak 1 goede
             portretfoto foto opleverd, kunt je bij ons 3 tot 6 geweldige
             profielwaardige portretfoto's van je fotosessie verwachten, maar we
-            laten je de hele shoot van 32 stuks zien, zodat je zelf kunt
+            laten je de hele shoot van 40 stuks zien, zodat je zelf kunt
             beslissen welke je wilt gebruiken.
           </p>
         </details>
